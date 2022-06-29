@@ -1,0 +1,20 @@
+GenericEntity : "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" {
+ coords 4573.448 -35.882 10373.12
+ angleX -6.111
+}
+GenericEntity : "{5BAA975FE04E94EF}Prefabs/Props/Civilian/BenchStreet/StreetBench_01/BenchStreet_01_green.et" {
+ coords 4572.854 14.773 10372.56
+ angleY 128.083
+}
+GenericEntity : "{7FCD4E7C25D886A8}Prefabs/Structures/Signs/Traffic/SignBusStop_01.et" {
+ coords 4572.181 14.761 10369.448
+ angleY 124.582
+}
+GenericEntity : "{E7117284012B39A4}Prefabs/Props/Garbage/Bins/TrashBin_02_patched.et" {
+ coords 4573.952 14.782 10374.4
+}
+SCR_DestructibleBuildingEntity : "{E9F0814557EC3DA9}Prefabs/Structures/Commercial/FuelStations/FuelStation_E_01_roof.et" {
+ coords 4572.47 0.001 10372.505
+ angleY -53.969
+ scale 0.61
+}

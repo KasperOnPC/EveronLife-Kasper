@@ -1,0 +1,19 @@
+GenericEntity : "{CD0BE5C399B0752F}Prefabs/Structures/Signs/Signs_Base.et" {
+ ID "50D67C36F4200F97"
+ components {
+  ActionsManagerComponent "{59B8809A6E3E1C07}" {
+   ActionContexts {
+    UserActionContext "{59B8809A6C9F5D54}" {
+     ContextName "default"
+    }
+   }
+   additionalActions {
+    EL_BusStopAction "{59B8809A61F515A7}" {
+     m_BusStops {
+      0 1
+     }
+    }
+   }
+  }
+ }
+}
