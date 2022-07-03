@@ -1,19 +1,27 @@
 GenericEntity : "{CD0BE5C399B0752F}Prefabs/Structures/Signs/Signs_Base.et" {
  ID "50D67C36F4200F97"
  components {
-  ActionsManagerComponent "{59B8809A6E3E1C07}" {
+  ActionsManagerComponent "{59C63D4DC722A3A5}" {
    ActionContexts {
-    UserActionContext "{59B8809A6C9F5D54}" {
+    UserActionContext "{59C63D4DC4380286}" {
      ContextName "default"
+     Position PointInfo "{59C63D4ECCA7EC09}" {
+      Offset 0 1.4993 0
+     }
     }
    }
    additionalActions {
-    EL_BusStopAction "{59B8809A61F515A7}" {
-     m_BusStops {
-      0 1
+    EL_BusStopAction "{59C63D4DBFC34809}" {
+     ParentContextList {
+      "default"
      }
+     UIInfo UIInfo "{59C63D4DA87232F1}" {
+      Name "Test"
+     }
+     Duration 1
     }
    }
   }
  }
+ coords 0 0 0
 }
