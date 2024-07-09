@@ -101,7 +101,7 @@ FrameWidgetClass {
          }
          Color 0 0 0 0
          components {
-          SCR_NavigationButtonComponent "{5B3CF3ECD86E6626}" {
+          SCR_InputButtonComponent "{5B3CF3ECD86E6626}" {
            m_BackgroundDefault 0.328 0.02 0.02 1
            m_BackgroundHovered 0.429 0.047 0.047 0.302
            m_sLabel "Cancel"
@@ -148,7 +148,7 @@ FrameWidgetClass {
          }
          Color 0 0 0 0
          components {
-          SCR_NavigationButtonComponent "{5B3CF3ECD6233AD8}" {
+          SCR_InputButtonComponent "{5B3CF3ECD6233AD8}" {
            m_BackgroundDefault 0.022 0.159 0.028 1
            m_BackgroundHovered 0.051 0.238 0.06 0.302
            m_sLabel "Transfer"
