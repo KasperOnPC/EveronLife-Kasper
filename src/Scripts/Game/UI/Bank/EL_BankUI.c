@@ -68,8 +68,7 @@ class EL_BankMenu : ChimeraMenuBase
 	//------------------------------------------------------------------------------------------------
 	void OpenWithdrawMenu()
 	{
-		EL_BankWithdrawDialog withdrawDialog = EL_BankWithdrawDialog.Cast(GetGame().GetMenuManager().OpenDialog(ChimeraMenuPreset.EL_BankWithdrawDialog));
-		withdrawDialog.SetConfirmText("Withdraw");
+		EL_BankWithdrawDialog.Cast(GetGame().GetMenuManager().OpenDialog(ChimeraMenuPreset.EL_BankWithdrawDialog));
 	}
 
 	//------------------------------------------------------------------------------------------------

@@ -1,7 +1,7 @@
 FrameWidgetClass {
  Name "rootFrame"
  {
-  OverlayWidgetClass "{5B3ADC3218EB1052}" {
+  OverlayWidgetClass "{61D32E519ABFD553}" {
    Name "Overlay0"
    Slot FrameWidgetSlot "{5B3ADC3218EB10A9}" {
     Anchor 0 0 1 1
@@ -15,7 +15,7 @@ FrameWidgetClass {
     OffsetBottom 200
    }
    {
-    ImageWidgetClass "{5B3ADC32C02E341B}" {
+    ImageWidgetClass "{61D32E519ABFD555}" {
      Name "OverlayBackground"
      Slot OverlayWidgetSlot "{5B3ADC32C02E347D}" {
       HorizontalAlign 3
@@ -26,7 +26,7 @@ FrameWidgetClass {
      "Shadow Size Increase" 2 2
      "Shadow Color" 0.042 0.042 0.042 1
     }
-    VerticalLayoutWidgetClass "{5B3ADC328ADC549C}" {
+    VerticalLayoutWidgetClass "{61D32E519ABFD557}" {
      Name "VerticalLayout0"
      Slot OverlayWidgetSlot "{5B3ADC328ADC54FD}" {
       HorizontalAlign 3
@@ -35,7 +35,7 @@ FrameWidgetClass {
      }
      "Fill Origin" Center
      {
-      TextWidgetClass "{5B3ADC328F5FA57E}" {
+      TextWidgetClass "{61D32E519ABFD549}" {
        Name "SourceAccount"
        Slot LayoutSlot "{5B3ADC328F5FA55E}" {
         SizeMode Fill
@@ -49,7 +49,7 @@ FrameWidgetClass {
         Bold 1
        }
       }
-      TextWidgetClass "{5C610998C7AE4DE9}" {
+      TextWidgetClass "{61D32E519ABFD548}" {
        Name "AmountTitle"
        Slot LayoutSlot "{5B3ADC328F5FA55E}" {
         VerticalAlign 1
@@ -64,7 +64,7 @@ FrameWidgetClass {
        FontProperties FontProperties "{5B3ADC32DC5A7732}" {
        }
       }
-      EditBoxWidgetClass "{5B3ADC32A24E53C7}" {
+      EditBoxWidgetClass "{61D32E519ABFD54A}" {
        Name "MoneyAmount"
        Slot LayoutSlot "{5B3ADC32A24E5C20}" {
         VerticalAlign 1
@@ -82,14 +82,14 @@ FrameWidgetClass {
        "Use placeholder text" 1
        "Placeholder text" "$ 0.00"
       }
-      ImageWidgetClass "{5C610998E6DA9C17}" {
+      ImageWidgetClass "{61D32E519ABFD54D}" {
        Name "Underline"
        Slot LayoutSlot "{5C610998E6DA9C7A}" {
         Padding 50 0 50 0
        }
        Size 2 2
       }
-      EditBoxWidgetClass "{5C6109988035F48E}" {
+      EditBoxWidgetClass "{61D32E519ABF202A}" {
        Name "CommentText"
        Slot LayoutSlot "{5B3ADC32A24E5C20}" {
         Padding 50 20 50 50
@@ -107,14 +107,14 @@ FrameWidgetClass {
        "Placeholder text" "<Comment>"
        "Vertical alignment" Top
       }
-      HorizontalLayoutWidgetClass "{5B3ADC331CE0EA48}" {
+      HorizontalLayoutWidgetClass "{61D32E519ABF2029}" {
        Name "HorizontalLayout0"
        Slot LayoutSlot "{5B3ADC331CE0EAAB}" {
         SizeMode Fill
         FillWeight 10
        }
        {
-        ButtonWidgetClass "{5B3CFB9125CC922B}" {
+        ButtonWidgetClass "{61D32E519ABF2026}" {
          Name "Cancel"
          Slot LayoutSlot "{5B3ADC329CD75466}" {
           Padding 20 0 20 0
@@ -130,14 +130,14 @@ FrameWidgetClass {
           }
          }
          {
-          OverlayWidgetClass "{5B3CFB9125CC922A}" {
+          OverlayWidgetClass "{61D32E519ABF2027}" {
            Name "Overlay"
            Slot ButtonWidgetSlot "{5B3CFB90331451BC}" {
             HorizontalAlign 3
             VerticalAlign 3
            }
            {
-            ImageWidgetClass "{5B3CFB9125CC9225}" {
+            ImageWidgetClass "{61D32E519ABF2024}" {
              Name "Background"
              Slot OverlayWidgetSlot "{5B3CFB9036937257}" {
               HorizontalAlign 3
@@ -147,7 +147,7 @@ FrameWidgetClass {
              "Shadow Size Increase" 2 2
              "Shadow Color" 0.072 0.006 0.006 1
             }
-            PanelWidgetClass "{5B3CFB9125CC9224}" {
+            PanelWidgetClass "{61D32E519ABF2025}" {
              Name "Border"
              Slot OverlayWidgetSlot "{5B3CFB9036937257}" {
               HorizontalAlign 3
@@ -155,7 +155,7 @@ FrameWidgetClass {
              }
              style outline_2px
             }
-            TextWidgetClass "{5B3CFB9125CC9226}" {
+            TextWidgetClass "{61D32E519ABF2022}" {
              Name "Text"
              Slot OverlayWidgetSlot "{5B3CFB9042C96104}" {
              }
@@ -165,7 +165,7 @@ FrameWidgetClass {
           }
          }
         }
-        ButtonWidgetClass "{5B3CFB9125CC92B3}" {
+        ButtonWidgetClass "{61D32E519ABF2023}" {
          Name "Confirm"
          Slot LayoutSlot "{5B3ADC329CD75466}" {
           Padding 20 0 20 0
@@ -181,7 +181,7 @@ FrameWidgetClass {
           }
          }
          {
-          OverlayWidgetClass "{5B3CFB9125CC92B2}" {
+          OverlayWidgetClass "{61D32E519ABF7FCE}" {
            Name "Overlay"
            Slot ButtonWidgetSlot "{5B3CFB90331451BC}" {
             HorizontalAlign 3
@@ -189,7 +189,7 @@ FrameWidgetClass {
            }
            Color 0 0 0 0
            {
-            ImageWidgetClass "{5B3CFB9125CC92AD}" {
+            ImageWidgetClass "{61D32E519ABF7FCD}" {
              Name "Background"
              Slot OverlayWidgetSlot "{5B3CFB9036937257}" {
               HorizontalAlign 3
@@ -200,7 +200,7 @@ FrameWidgetClass {
              "Shadow Size Increase" 2 2
              "Shadow Color" 0 0.06 0.018 1
             }
-            PanelWidgetClass "{5B3CFB9125CC92AC}" {
+            PanelWidgetClass "{61D32E519ABF7FCC}" {
              Name "Border"
              Slot OverlayWidgetSlot "{5B3CFB9036937257}" {
               HorizontalAlign 3
@@ -208,11 +208,11 @@ FrameWidgetClass {
              }
              style outline_2px
             }
-            TextWidgetClass "{5B3CFB9125CC89D5}" {
+            TextWidgetClass "{61D32E519ABF7FF3}" {
              Name "Text"
              Slot OverlayWidgetSlot "{5B3CFB9042C96104}" {
              }
-             Text "Deposit"
+             Text "Withdraw"
             }
            }
           }
