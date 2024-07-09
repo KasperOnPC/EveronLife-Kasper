@@ -1,0 +1,22 @@
+GenericEntity : "{03179A7595569288}Prefabs/Props/ATM.et" {
+ components {
+  ActionsManagerComponent "{5B0B1EE358F7219F}" {
+   ActionContexts {
+    UserActionContext "{5B0B1EE35A0CB1CC}" {
+     Position PointInfo "{61D312EC697B39C4}" {
+      Offset 0 0.3275 0.0498
+     }
+     Radius 0.5
+    }
+   }
+  }
+ }
+ coords 75.272 25.043 158.678
+ angleY 88
+}
+GenericEntity : "{622F9989DDC4865B}PrefabLibrary/Props/Civilian/Recreation/TableRecreation_01/TableRecreation_01.et" {
+ coords 75.059 24.144 158.678
+}
+EL_GlobalBankAccountManager : "{A8DB88FA148A2CA2}Prefabs/MP/Spawn/EL_GlobalBankAccountManager.et" {
+ coords 73.385 24.144 158.581
+}
